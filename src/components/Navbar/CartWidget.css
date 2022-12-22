@@ -1,0 +1,24 @@
+.cart-widget {
+    background-image: url(../img/pngcart.png);
+    color:yellow;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.numberCart {
+    display: flex;
+    justify-content: center;
+    width: 16px;
+    height: 20px;
+    background-color: #b0cab2a8;
+    color: #000;
+    border-radius: 50%;
+    font-size: 14px;
+    top: 57px;
+    position: fixed;
+    font-weight: bold;
+}
+
