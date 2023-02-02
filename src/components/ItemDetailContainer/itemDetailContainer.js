@@ -11,6 +11,7 @@ const ItemDetailContainer = () => {
 
     const { itemId } = useParams()
 
+
     useEffect(() => {
         pedirItemPorId(Number(itemId))
         .then((data) => {
@@ -22,8 +23,12 @@ const ItemDetailContainer = () => {
     return (
         <div className='container my-5'>
             {
-              item && <Card2 item={item}/>
+              item && <Card2 item={item}
+              
+              />
             }
+              
+            
         </div>
     )
 }

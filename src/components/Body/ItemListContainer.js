@@ -40,8 +40,7 @@ export const ItemListContainer = () => {
     <div
       style={{
         display: "flex",
-        alignItems: "center",
-        justifyContent: "space-around",
+        justifyContent: "space-evenly",
       }}
     >
       {cards}
